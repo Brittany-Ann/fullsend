@@ -1,0 +1,64 @@
+*{
+  margin: 0%;
+}
+body{
+  width: 100%;
+  background-color: black;
+}
+.banner{
+  width: 78%;
+  height: 80%;
+}
+.info{
+  background-image: url(darkroad.jpg);
+  width: 100%;
+  height: 786px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}.phone{
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2%;
+}
+.web{
+  margin-top: 3%;
+  font-size: 24px;
+  margin-left: 10%;
+}
+.bio{
+  margin-top: 8%;
+  font-size: 22px;
+  text-align: center;
+}
+.name{
+  text-align: center;
+  margin-left: -18%;
+  margin-bottom: 5%;
+}
+a:link {
+  color: #39FF14;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #0000FF;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #0047AB;
+  background-color: rgba(124, 252, 0, 0.3);
+  text-decoration: underline;
+}
+a:active {
+  color: #99FFFF;
+  background-color: transparent;
+  text-decoration: wavy;
+}
+.mbanner{
+  display: none;
+}
